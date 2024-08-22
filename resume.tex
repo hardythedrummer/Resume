@@ -1,8 +1,9 @@
-\documentclass{moderncv}
+\documentclass[12pt,sans]{moderncv}
 \moderncvstyle{classic}                             
 \moderncvcolor{blue}
 
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.8]{geometry}
+
 
 \name{Joey}{Hardy}
 \title{Sr. Software Engineer}
@@ -11,15 +12,11 @@
 \email{email}
 \social[github]{hardythedrummer}
 
-\begin{document}    	
+\begin{document}
 	\makecvtitle
 	
-	\section{Technical Skills}
-	\cvitem {}{Skilled in architecture, problem analysis,and technical development, with emphasis on parallelization, best practices and efficient delivery}
-	\cvitem {}{Interested in practical functional programming and } % \TODO
-	\cvitem {Technologies}{Proficiency in MERN stack. Wide experience with other technologies and always interested in learning and expanding skills} 		
-	\cvitem {Tools}{Experience with Git/Github, Jira/Bitbucket/Bamboo, TFS and other project management systems}
-	\cvitem {Frameworks}{Comfortable with various frameworks and libraries, including React, Node.js, Mocha, Express, and Wordpress}
+	\cvitem {}{I am an experienced engineer with a focus on architecture, design and professional development. I enjoy improving myself, but I enjoy making my team better even more. I am interested in practical functional programming and clean design pattern usage.}
+
 	
 	\section{Work Experience:}
 	
@@ -30,10 +27,11 @@
 	{Addison, TX}{}
 	{
 		\begin{itemize}
-			\item {Lead a team of developers to create systems for handling orders and subscriptions, with integration to third party tools such as Stripe and Shopify}
+			\item {Architect and plan new features, large scale refactors and maintenance for technical debt} 
+			\item {Planned, coordinated and executed an effort to replace all customer`s devices due to the national 3G network sunset in less than a month}
+			\item {Subject matter expert for payments, orders and subscriptions, with third party integrations to Stripe and Shopify}
 			\item {Spearhead efforts to learn and develop better automated testing practices as a team}
 			\item {Develop devops tools, define CI/CD strategy for Bamboo build and deployment plans and create framework for templating new API and frontend Next.js projects}
-			\item {Architect and plan new features, large scale refactors and maintenance for tech debt. For example, plan and execute an effort to replace all customer`s devices due to the national 3G network sunset in less than a month}
 			\item {Mentor junior engineers. Lead efforts to develop skills and knowledge for entire department}
 			% \item {Lead developer on "Showcase" project, a media management and digital signage solution for car dealerships, including an AppleTV app. Utilizes Wistia as a media platform, combined with custom branded dealership videos to provide a unique marketing opportunity for car dealerships with minimal technical overhead.  (Angular2, Node.js, Swift)}
 			% \item {Rewrote/refreshed "Commerce" product. This product was one of the main profit drivers for the company, and we analyzed business requirements, synthesized new workflows, moved to cutting edge web frameworks and created a modern UI/UX. Instrumental in transition from old project to new. (.NET WebForms, Angular1, Node.js)}
@@ -68,8 +66,16 @@
 		\end{itemize}
 	}
 	
+	\section{Technical Skills}
+	% \cvitem {}{Skilled in architecture, problem analysis,and technical development, with emphasis on parallelization, best practices and efficient delivery}
+	% \cvitem {}{Interested in practical functional programming and } % \TODO
+	\cvitem {Technologies}{Node.js, React, Nextjs, Express, Mocha, Jest, Mongo, SQL, Docker, Rancher, Javascript, C\#, C++, Java}
+	\cvitem {Tools}{Git, Github, Jira, Bitbucket, Bamboo, TFS}
+	% \cvitem {Frameworks}{Comfortable with various frameworks and libraries, including React, Node.js, Mocha, Express, Stripe}
+
 	\section{Open Source Contributions}
 	\cventry{}{WistiaKit}{}{}{}{Added hooks to iOS/TvOS library to enable consumers to cache retrieved media information.}
+	\cventry{}{foundryvtt-icon}{}{}{}{Added new features to an open source TTRPG system for distributed play}
 	\section{Education:}
 	\cventry{2006-2010}{B.S. in Computer Science}{University of Texas at Dallas}{}{Richardson, TX}{}
 	
